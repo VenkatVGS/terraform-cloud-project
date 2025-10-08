@@ -23,6 +23,7 @@ resource "aws_subnet" "pvt-subnet" {
 
   tags = {
     Name = "private-subnett"
+    subnet = "private"
   }
 }
 # Routing Table For Public
